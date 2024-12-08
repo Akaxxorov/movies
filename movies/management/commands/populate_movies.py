@@ -10,6 +10,10 @@ file_names = [
     'movie_images/1.jpg', 'movie_images/2.jpg', 'movie_images/3.jpg'
 ]
 
+video_files = [
+    'movies/mufasa.mp4', 'movies/red_one.mp4'
+]
+
 class Command(BaseCommand):
     help = "Populate the database with random movies and genres"
 
@@ -25,7 +29,7 @@ class Command(BaseCommand):
 
     def create_movies(self):
         genres = list(Genre.objects.all())
-        for _ in range(50):  # Adjust the number of movies as needed
+        for _ in range(25):  # Adjust the number of movies as needed
             movie = Movie.objects.create(
                 title=fake.sentence(nb_words=random.randrange(3, 7)),
                 description=fake.paragraph(nb_sentences=random.randrange(5, 10)),
@@ -42,7 +46,7 @@ class Command(BaseCommand):
                 type=random.choice([choice[0] for choice in MovieTypeChoices.choices]),
                 slug=None,  # Automatically generated in `save` method
                 image=random.choice(file_names),
-                video=fake.file_name(category="video"),
+                video=random.choice(video_files),
                 thumb=fake.file_name(category="image"),
             )
             movie.save()
