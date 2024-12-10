@@ -14,7 +14,18 @@ file_names = [
     'movie_images/wednesday.jpg', 'movie_images/titanic_2.jpg',
     'movie_images/Spider_man_2025.jpg', 'movie_images/shang_chi_2.jpg',
     'movie_images/IT_Chapter_3.jpg', 'movie_images/gladiator_2.jpg',
-    'movies2/movie_images/Mission_imposible.jpg'
+    'movie_images/Mission_imposible.jpg'
+]
+
+Movie_title = [
+    '28 Years later' , 'Avangers 5',
+    'Ben 10' , 'Disney snow white',
+    'Dragon' , 'Home alone 3',
+    'Harry poter' , 'Wicked',
+    'Wednesday' , 'Titanic 2',
+    'Spider man 2025' , 'shang chi 2'
+    'IT chapter' , 'gladiator' ,
+    'Mission imposible'
 ]
 
 video_files = [
