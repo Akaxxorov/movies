@@ -23,11 +23,10 @@ Movie_title = [
     'Dragon' , 'Home alone 3',
     'Harry poter' , 'Wicked',
     'Wednesday' , 'Titanic 2',
-    'Spider man 2025' , 'shang chi 2'
+    'Spider man 2025' , 'shang chi 2',
     'IT chapter' , 'gladiator' ,
     'Mission imposible'
 ]
-
 video_files = [
     'movies/28_years_later.mp4', 'movies/Avengeers_5.mp4' ,
     'movies/BEN_10.mp4' , 'movies/Disneys\'s_snow_white.mp4' ,
