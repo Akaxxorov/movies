@@ -8,9 +8,9 @@ fake = Faker()
 
 file_names = [
     'movie_images/28_years_later.jpg', 'movie_images/Avengeers_5.jpg',
-    'movie_images/BEN_10.jpg' ,'movie_images/Disneys\'s_snow_white.jpg' ,
+    'movie_images/ben_10.jpg' ,'movie_images/Disneys\'s_snow_white.jpg' ,
     'movie_images/dragaon_2025.jpg' , 'movie_images/home_alone3.jpg', 
-    'movie_images/Harry_poter_2025.jpg', 'movie_images/Wicked.jpg',
+    'movie_images/harry_poter_2025.jpg', 'movie_images/Wicked.jpg',
     'movie_images/wednesday.jpg', 'movie_images/titanic_2.jpg',
     'movie_images/Spider_man_2025.jpg', 'movie_images/shang_chi_2.jpg',
     'movie_images/IT_Chapter_3.jpg', 'movie_images/gladiator_2.jpg',
