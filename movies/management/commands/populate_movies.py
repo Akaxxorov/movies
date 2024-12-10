@@ -54,7 +54,10 @@ class Command(BaseCommand):
 
     def create_movies(self):
         genres = list(Genre.objects.all())
-        for i in range(15):  # Adjust the number of movies as needed
+        print(f"{len(Movie_title)=}")
+        print(f"{len(video_files)=}")
+        print(f"{len(file_names)=}")
+        for i in range(14):  # Adjust the number of movies as needed
             movie = Movie.objects.create(
                 title=Movie_title[i],
                 description=fake.paragraph(nb_sentences=random.randrange(5, 10)),
