@@ -68,7 +68,6 @@ class Command(BaseCommand):
                 scores=round(random.uniform(0, 10), 1),
                 status=random.choice([choice[0] for choice in MovieStatusChoices.choices]),
                 type=random.choice([choice[0] for choice in MovieTypeChoices.choices]),
-                slug=None,  # Automatically generated in `save` method
                 image=file_names[i],
                 video=video_files[i],
                 thumb=Movie_title[i],
