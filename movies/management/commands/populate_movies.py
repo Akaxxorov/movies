@@ -7,11 +7,25 @@ fake = Faker()
 
 
 file_names = [
-    'movie_images/1.jpg', 'movie_images/2.jpg'
+    'movie_images/28_years_later.jpg', 'movie_images/Avengeers_5.jpg',
+    'movie_images/BEN_10.jpg' ,'movie_images/Disneys\'s_snow_white.jpg' ,
+    'movie_images/dragaon_2025.jpg' , 'movie_images/home_alone3.jpg', 
+    'movie_images/Harry_poter_2025.jpg', 'movie_images/Wicked.jpg',
+    'movie_images/wednesday.jpg', 'movie_images/titanic_2.jpg',
+    'movie_images/Spider_man_2025.jpg', 'movie_images/shang_chi_2.jpg',
+    'movie_images/IT_Chapter_3.jpg', 'movie_images/gladiator_2.jpg',
+    'movies2/movie_images/Mission_imposible.jpg'
 ]
 
 video_files = [
-    'movies/mufasa.mp4', 'movies/red_one.mp4'
+    'movies/28_years_later.mp4', 'movies/Avengeers_5.mp4' ,
+    'movies/BEN_10.mp4' , 'movies/Disneys\'s_snow_white.mp4' ,
+    'movies/dragaon_2025.mp4' ,'movies/home_alone3.mp4' , 
+    'movies/Harry_poter_2025.mp4','movies//Wicked.mp4' ,
+    'movies/Wednesday.mp4' , 'movies/Titanic_2.mp4' ,
+    'movies/Spider_man_2025.mp4' , 'movies/Shang_Chi_2.mp4',
+    'movies/IT_Chapter_3.mp4' , 'movies/gladiator_2.mp4',
+    'movies/Mission_Impossible.mp4'
 ]
 
 class Command(BaseCommand):
