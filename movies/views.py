@@ -23,11 +23,12 @@ def home(request):
         ).filter(userreview__isnull=False).order_by('-last_comment')[:4]
     
 
-    
+
     context = {
         'banners': banners,
         'regular': regular,
-        'top_views' : top_views
+        'top_views' : top_views,
+         'latest_commented_movies': latest_commented_movies
     }
     print(f"{banners=}")
 
