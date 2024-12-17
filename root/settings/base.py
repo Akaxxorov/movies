@@ -1,4 +1,6 @@
+import sys
 from pathlib import Path
+
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
@@ -9,6 +11,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent.parent
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'django-insecure-oi!oqscdbf&bpexankakx^_lsgo(q32*96$v!3$zrh5zjz-58j'
+sys.path.append(str(BASE_DIR / 'root/settings'))
+
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
